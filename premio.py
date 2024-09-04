@@ -11,7 +11,7 @@ class Premio:
         self.tipo = random.randint(1,2)
         self.color = "orange" if self.tipo == 1 else "green"
         self.rect = pygame.Rect(self.x, self.y, self.ancho, self.alto)
-        self.imagen = pygame.image.load("C:/Users/dolli/Documents/GitHub/astronauta.png") if self.tipo == 1 else pygame.image.load("C:/Users/dolli/Documents/GitHub/astronauta2.png")
+        self.imagen = pygame.image.load("C:/Users/dolli/Documents/GitHub/game_one/astronauta.png") if self.tipo == 1 else pygame.image.load("C:/Users/dolli/Documents/GitHub/game_one/astronauta2.png")
         self.imagen = pygame.transform.scale(self.imagen, (self.ancho, self.alto))
 
     def dibujar(self, ventana):

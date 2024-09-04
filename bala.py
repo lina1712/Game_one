@@ -9,7 +9,7 @@ class Bala:
         self.velocidad = 15
         self.color = "white"
         self.rect = pygame.Rect(self.x, self.y, self.ancho, self.alto)
-        self.imagen = pygame.image.load("C:/Users/dolli/Documents/GitHub/bala_fuego.png")
+        self.imagen = pygame.image.load("C:/Users/dolli/Documents/GitHub/game_one/bala_fuego.png")
         self.imagen = pygame.transform.scale(self.imagen, (self.ancho, self.alto))
 
     def dibujar(self, ventana):

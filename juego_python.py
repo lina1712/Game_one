@@ -7,7 +7,7 @@ from enemigo import Enemigo
 #importar la bala
 from bala import Bala
 
-from astronauta import Premio
+from premio import Premio
 
 import random
 
@@ -22,9 +22,9 @@ ALTO = 720
 VENTANA = pygame.display.set_mode([ANCHO,ALTO])
 FPS = 60
 FUENTE = pygame.font.SysFont("Cascadia code", 40)
-SONIDO_DISPARO = pygame.mixer.Sound('C:/Users/dolli/Documents/GitHub/laser.mp3')
-SONIDO_MUERTE_ENEMIGO = pygame.mixer.Sound('C:/Users/dolli/Documents/GitHub/muerte_enemigo.mp3')
-SONIDO_MUERTE_PERSONAJE = pygame.mixer.Sound('C:/Users/dolli/Documents/GitHub/muerte_personaje.mp3')
+SONIDO_DISPARO = pygame.mixer.Sound('C:/Users/dolli/Documents/GitHub/game_one/laser.mp3')
+SONIDO_MUERTE_ENEMIGO = pygame.mixer.Sound('C:/Users/dolli/Documents/GitHub/game_one/muerte_enemigo.mp3')
+SONIDO_MUERTE_PERSONAJE = pygame.mixer.Sound('C:/Users/dolli/Documents/GitHub/game_one/muerte_personaje.mp3')
 
 #variables
 jugando = True

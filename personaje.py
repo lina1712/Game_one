@@ -9,7 +9,7 @@ class Cubo:
         self.velocidad = 10
         self.color = "pink"
         self.rect = pygame.Rect(self.x, self.y, self.ancho, self.alto)
-        self.imagen = pygame.image.load("C:/Users/dolli/Documents/GitHub/cohete.png")
+        self.imagen = pygame.image.load("C:/Users/dolli/Documents/GitHub/game_one/cohete.png")
         self.imagen = pygame.transform.scale(self.imagen, (self.ancho, self.alto))
         #self.imagen = pygame.transform.rotate(self.imagen, 90)
 
